@@ -21,7 +21,17 @@
    cd CUDA_General_Intelligence_Training
    ```
 
-2. **Install Dependencies**:
+2. **Install Anaconda or Miniconda**:
+   Follow the official [Anaconda installation guide](https://docs.anaconda.com/anaconda/install/) or [Miniconda installation guide](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) to install Anaconda or Miniconda.
+
+3. **Create and Activate Conda Environment**:
+   Create a new conda environment specific to this project and activate it:
+   ```bash
+   conda create --name cuda_general_intelligence python=3.8
+   conda activate cuda_general_intelligence
+   ```
+
+4. **Install Dependencies**:
    Ensure you have the following software and libraries installed:
    - **Operating System**: Ubuntu 20.04 LTS
    - **CUDA Toolkit**: Version 11.4
@@ -36,8 +46,8 @@
    You can install these dependencies using the following commands:
    ```bash
    sudo apt update
-   sudo apt install -y python3-pip docker.io git
-   pip3 install tensorflow==2.5 torch==1.9 transformers==4.9 diffusers==0.4 jupyterlab==3.0
+   sudo apt install -y docker.io git
+   pip install tensorflow==2.5 torch==1.9 transformers==4.9 diffusers==0.4 jupyterlab==3.0
    ```
 
 ## Environment Setup
