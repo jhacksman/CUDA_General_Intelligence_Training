@@ -6,13 +6,13 @@ This document outlines the hardware specifications for a 64GB VRAM machine desig
 ## Hardware Specifications
 
 ### GPU
-- **Model**: NVIDIA A100 Tensor Core GPU
-- **VRAM**: 64GB HBM2e
-- **CUDA Cores**: 6912
-- **Tensor Cores**: 432
-- **Memory Bandwidth**: 1.6 TB/s
-- **Peak FP16 Performance**: 312 TFLOPS
-- **Peak FP32 Performance**: 19.5 TFLOPS
+- **Model**: 3x NVIDIA GeForce RTX 3090
+- **VRAM**: 24GB GDDR6X each (72GB total)
+- **CUDA Cores**: 10496 each
+- **Tensor Cores**: 328 each
+- **Memory Bandwidth**: 936.2 GB/s each
+- **Peak FP16 Performance**: 142.6 TFLOPS each
+- **Peak FP32 Performance**: 35.6 TFLOPS each
 
 ### CPU
 - **Model**: AMD EPYC 7742
@@ -44,4 +44,4 @@ This document outlines the hardware specifications for a 64GB VRAM machine desig
 - **Form Factor**: 4U Rackmount
 
 ## Conclusion
-The above hardware specifications provide a robust and efficient system for running CUDA training for a general intelligence system. The NVIDIA A100 GPU with 64GB VRAM ensures high performance for advanced AI techniques, while the AMD EPYC CPU, ample memory, and high-speed storage support the overall system requirements.
+The above hardware specifications provide a robust and efficient system for running CUDA training for a general intelligence system. The 3x NVIDIA GeForce RTX 3090 GPUs with a total of 72GB VRAM ensure high performance for advanced AI techniques, while the AMD EPYC CPU, ample memory, and high-speed storage support the overall system requirements.
