@@ -1,0 +1,5 @@
+tensorflow==2.5
+torch==1.9
+transformers==4.9
+diffusers==0.4
+jupyterlab==3.0

@@ -27,7 +27,7 @@
 3. **Create and Activate Conda Environment**:
    Create a new conda environment specific to this project and activate it:
    ```bash
-   conda create --name cuda_general_intelligence python=3.8
+   conda create --name cuda_general_intelligence python=3.11
    conda activate cuda_general_intelligence
    ```
 
@@ -47,7 +47,7 @@
    ```bash
    sudo apt update
    sudo apt install -y docker.io git
-   pip install tensorflow==2.5 torch==1.9 transformers==4.9 diffusers==0.4 jupyterlab==3.0
+   pip install -r requirements.txt
    ```
 
 ## Environment Setup
