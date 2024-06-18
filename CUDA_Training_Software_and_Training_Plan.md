@@ -6,13 +6,13 @@ This document outlines the software and training plan for a 64GB VRAM machine de
 ## Hardware Specifications
 
 ### GPU
-- **Model**: NVIDIA A100 Tensor Core GPU
-- **VRAM**: 64GB HBM2e
-- **CUDA Cores**: 6912
-- **Tensor Cores**: 432
-- **Memory Bandwidth**: 1.6 TB/s
-- **Peak FP16 Performance**: 312 TFLOPS
-- **Peak FP32 Performance**: 19.5 TFLOPS
+- **Model**: 3x NVIDIA GeForce RTX 3090
+- **VRAM**: 24GB GDDR6X each (72GB total)
+- **CUDA Cores**: 10496 each
+- **Tensor Cores**: 328 each
+- **Memory Bandwidth**: 936.2 GB/s each
+- **Peak FP16 Performance**: 142.6 TFLOPS each
+- **Peak FP32 Performance**: 35.6 TFLOPS each
 
 ### CPU
 - **Model**: AMD EPYC 7742
@@ -54,10 +54,10 @@ This document outlines the software and training plan for a 64GB VRAM machine de
 
 ### Deep Learning Frameworks
 - **TensorFlow**
-  - **Version**: TensorFlow 2.5
+  - **Version**: TensorFlow 2.8
   - **Description**: An end-to-end open-source platform for machine learning, TensorFlow provides a comprehensive ecosystem of tools, libraries, and community resources.
 - **PyTorch**
-  - **Version**: PyTorch 1.9
+  - **Version**: PyTorch 1.10
   - **Description**: An open-source machine learning library based on the Torch library, PyTorch is used for applications such as computer vision and natural language processing.
 
 ### Libraries and Tools
